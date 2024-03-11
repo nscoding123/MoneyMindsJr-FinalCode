@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head class="headerless">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Minds Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        .headerless {
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(backgorundless.jpeg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: #fff;
+        }
+
+        .left-nav {
+            width: 10%;
+            float: left;
+            background-color: #00739a;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .centered-content {
+            width: 70%;
+            float: left;
+            text-align: center;
+        }
+
+        .right-content {
+            width: 20%;
+            float: right;
+            text-align: center;
+        }
+
+        .thought-bubble1 {
+            background-color: transparent; /* Set background to transparent */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            margin: 0 auto;
+            border: 2px solid #ffffff; /* Add a border with the desired color */
+        }
+
+        .right-aligned {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .centered-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-bottom: 1px solid #fff;
+        }
+
+        .nav-link:last-child {
+            border: none;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        body {
+            background-color: #123456;
+        }
+
+        /* Minimized state for the left navigation bar */
+        .minimized {
+            width: 60px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .minimized .nav-link {
+            display: none;
+        }
+
+        .minimized #toggleNav {
+            display: block;
+        }
+
+        /* Add these styles to your existing styles */
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #fff; /* Add a border around the content */
+    margin: 20px; /* Add margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+    background: #00739a; /* Add a background color */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.centered-content {
+    width: 63%;
+    float: left;
+    text-align: center;
+    border: 2px solid #fff; /* Add a border around the centered content */
+    margin: 20px; /* Add margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+    background: #00739a; /* Add a background color */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.centered-content p {
+    text-align: left; /* Adjust the text alignment */
+}
+
+        @media(max-width: 700px){
+        .left-nav{
+        display: none;
+         }
+         .right-aligned{
+            display: none;
+         }
+         .centered-content{
+            float: center;
+            margin-left: 30px;
+         }
+}
+    </style>
+</head>
+
+<body>
+    <section class="headerless">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="lessons.html">LESSONS</a>
+                    </li>
+                    <li>
+                        <a href="certification.html">CERTIFICATION</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="left-nav">
+            <a href="page1.html" class="nav-link">Jenny The Wizard!</a>
+            <a href="page2.html" class="nav-link">Introduction to Money</a>
+            <a href="page3.html" class="nav-link">Earning Money</a>
+            <a href="page4.html" class="nav-link">Saving Money</a>
+            <a href="page5.html" class="nav-link">Needs vs. Wants</a>
+            <a href="page6.html" class="nav-link">Budgeting</a>
+            <a href="page7.html" class="nav-link">Financial Institutions</a>
+            <a href="page8.html" class="nav-link">Banking Terms</a>
+            <a href="page9.html" class="nav-link">Accessing Your Money</a>
+            <a href="page10.html" class="nav-link">Interest</a>
+            <a href="page11.html" class="nav-link">Investing</a>
+            <a href="page12.html" class="nav-link">Secret Tools</a>
+            <a href="page13.html" class="nav-link">Giving Back</a>
+            <a href="page14.html" class="nav-link">Congrats!</a>
+        </div>
+
+        <div class="centered-content">
+            <h1>Giving Back</h1>
+            <h2>Let's start with knowing about money. </h2>
+            <p style="margin-top: 20px;">When you earn money, you should always 'give back' to the community. Wait, why would you do that?</p>
+            
+            <h3 style="margin-top: 20px;">Helping Your Community: Being a Super Helper!</h3>
+            <p style="margin-top: 20px;">Think of your community as a big group of friends and neighbors who live near you. Just like friends help each other, it's important to help your community too. When you give back to your community, you're being a super helper and making the place you live even better!</p>
+            
+            <h3 style="margin-top: 20px;">Making the World Brighter: Spreading Kindness!</h3>
+            <p style="margin-top: 20px;">Imagine you have a box of colorful crayons. When you do something nice for your community, it's like adding bright colors to the world. When you donate or help raise money for a good cause, you're making your community brighter and happier.</p>
+            
+            <h3 style="margin-top: 20px;">Being a Part of Something Special: Teamwork!</h3>
+            <p style="margin-top: 20px;">When everyone helps a little, big things happen. It's like building a huge sandcastle with your friends at the beach. You each add a little bit of sand, and together, you create something amazing! Giving back to your community is like being part of a big team that makes your town or neighborhood a wonderful place for everyone!</p>
+            
+            <h3 style="margin-top: 20px;">Feeling Proud and Happy: Heartwarming Moments</h3>
+            <p style="margin-top: 20px;">When you give back, you'll feel proud of what you've done. It's like when you finish a puzzle and see the whole picture come together. Helping others and seeing the positive changes you make can bring you lots of happiness.</p>
+            
+            <h3 style="margin-top: 20px;">Growing Up to Be a Good Person: Life Lessons</h3>
+            <p style="margin-top: 20px;">Giving back to your community teaches you important things about kindness, caring for others, and making the world a better place. When you grow up, these lessons will help you become an even more amazing person who spreads happiness wherever you go.</p>
+            
+            <div class="thought-bubble1" style="margin-top: 20px;">
+                <p>Remember: Giving back to your community is like sharing your colorful crayons with friends, working as a team, and making the world brighter. It's a way to show kindness and make your community a happier place for everyone.</p>
+            </div>
+
+            <div class="centered-button">
+                <a href="page12.html" class="hero-btn">Back</a>
+                <a href="page14.html" class="hero-btn">Next</a>
+             
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="right-aligned">
+                <img src="Giving Bank.png" alt="Image description" class="right-aligned" style="margin-top: 50px;">
+                <img src="Giving Bank SLide2.png" alt="Image description" class="right-aligned" style="margin-top: 50px;">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const toggleNavButton = document.getElementById('toggleNav');
+        const leftNav = document.querySelector('.left-nav');
+
+        toggleNavButton.addEventListener('click', function() {
+            leftNav.classList.toggle('minimized');
+        });
+    </script>
+</body>
+</html>

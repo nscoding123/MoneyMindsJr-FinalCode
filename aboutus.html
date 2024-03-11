@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Money Minds Junior</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links">
+                    <i class="fa fa-times" onclick=hideMenu()></i>
+                    <ul>
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="lessons.html">LESSONS</a>
+                        </li>
+                        <li>
+                            <a href="certification.html">CERTIFICATION</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick=showMenu()></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>About Us</h1>
+                <p>Let's learn a little bit about our Co-Founders!</p>
+                <a href="ceo.html" class="hero-btn">CEO</a>
+                <a href="cto.html" class="hero-btn">CTO</a>
+            </div>
+        </section>
+        <script>
+            var navLinks=document.getElementById("navLinks")
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+
+        </script>
+    </body>
+</html>

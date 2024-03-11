@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head class="headerless">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Minds Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        .headerless {
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(backgorundless.jpeg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: #fff;
+        }
+
+        .left-nav {
+            width: 10%;
+            float: left;
+            background-color: #00739a;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .centered-content {
+            width: 70%;
+            float: left;
+            text-align: center;
+        }
+
+        .right-content {
+            width: 20%;
+            float: right;
+            text-align: center;
+        }
+
+        .thought-bubble1 {
+            background-color: transparent; /* Set background to transparent */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            margin: 0 auto;
+            border: 2px solid #ffffff; /* Add a border with the desired color */
+        }
+
+        .right-aligned {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .centered-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-bottom: 1px solid #fff;
+        }
+
+        .nav-link:last-child {
+            border: none;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        body {
+            background-color: #123456;
+        }
+
+        /* Minimized state for the left navigation bar */
+        .minimized {
+            width: 60px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .minimized .nav-link {
+            display: none;
+        }
+
+        .minimized #toggleNav {
+            display: block;
+        }
+
+        /* Add these styles to your existing styles */
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #fff; /* Add a border around the content */
+    margin: 20px; /* Add margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+    background: #00739a; /* Add a background color */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.centered-content {
+    width: 63%;
+    float: left;
+    text-align: center;
+    border: 2px solid #fff; /* Add a border around the centered content */
+    margin: 20px; /* Add margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+    background: #00739a; /* Add a background color */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.centered-content p {
+    text-align: left; /* Adjust the text alignment */
+}
+
+        @media(max-width: 700px){
+        .left-nav{
+        display: none;
+         }
+         .right-aligned{
+            display: none;
+         }
+         .centered-content{
+            float: center;
+            margin-left: 30px;
+         }
+}
+    </style>
+</head>
+
+<body>
+    <section class="headerless">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="lessons.html">LESSONS</a>
+                    </li>
+                    <li>
+                        <a href="certification.html">CERTIFICATION</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="left-nav">
+            <a href="page1.html" class="nav-link">Jenny The Wizard!</a>
+            <a href="page2.html" class="nav-link">Introduction to Money</a>
+            <a href="page3.html" class="nav-link">Earning Money</a>
+            <a href="page4.html" class="nav-link">Saving Money</a>
+            <a href="page5.html" class="nav-link">Needs vs. Wants</a>
+            <a href="page6.html" class="nav-link">Budgeting</a>
+            <a href="page7.html" class="nav-link">Financial Institutions</a>
+            <a href="page8.html" class="nav-link">Banking Terms</a>
+            <a href="page9.html" class="nav-link">Accessing Your Money</a>
+            <a href="page10.html" class="nav-link">Interest</a>
+            <a href="page11.html" class="nav-link">Investing</a>
+            <a href="page12.html" class="nav-link">Secret Tools</a>
+            <a href="page13.html" class="nav-link">Giving Back</a>
+            <a href="page14.html" class="nav-link">Congrats!</a>
+        </div>
+
+        <div class="centered-content">
+            <h1>Interest</h1>
+            <p style="margin-top: 20px;">When you put your money in your savings account and leave it there, the bank gives you a little extra money as a reward. This extra money is called "interest." It's like a thank-you for letting the bank keep your money safe.</p>
+            <div class="thought-bubble1" style="margin-top: 50px;">
+                    <p>Remember: Interest is calculated both while Saving and Borrowing. While saving, you are paid interest; but while borrowing you pay interest.</p>
+            </div>
+
+            <h1 style="margin-top: 50px;">Interest - Types</h1>
+            <p style="margin-top: 20px;">There are two types of interest: Simple and Compound Interest.</p>
+            <p style="margin-top: 20px;">Simple interest is like getting a small bonus on your money. Let's say you saved $10 in your bank, and the bank gives you 5% interest. That means the bank will add 5% of $10 to your money. 5% of $10 is 50 cents, so you'll have $10 + 50 cents = $10.50 after a year.</p>
+            <p style="margin-top: 20px;">Now compund interest on the other hand is when your comney gets compunded over time. For example, you have $10 in your bank, and the bank gives you 5% compound interest. In the beginning, you'll get 5% of $10, just like with simple interest (50 cents). But here's the magic: the next time, the bank gives you 5% of $10.50, which is 53 cents. It's like interest on top of interest!</p>
+            <div class="thought-bubble1" style="margin-top: 50px;">
+                    <p>Did you know: Savings account rates are primarily impacted by Federal Reserve policy.</p>
+            </div>
+
+            <div class="centered-button">
+                <a href="page9.html" class="hero-btn">Back</a>
+                <a href="page11.html" class="hero-btn">Next</a>
+                
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="right-aligned">
+                <img style="margin-top: 40px;" src="Interest.png" alt="Image description" class="right-aligned">
+                <img style="margin-top: 80px;" src="Simple vs Compund Interest.png" alt="Image description" class="right-aligned">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const toggleNavButton = document.getElementById('toggleNav');
+        const leftNav = document.querySelector('.left-nav');
+
+        toggleNavButton.addEventListener('click', function() {
+            leftNav.classList.toggle('minimized');
+        });
+    </script>
+</body>
+</html>

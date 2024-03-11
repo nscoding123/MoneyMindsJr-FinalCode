@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Money Minds Junior</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick=hideMenu()></i>
+                    <ul>
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="lessons.html">LESSONS</a>
+                        </li>
+                        <li>
+                            <a href="certification.html">CERTIFICATION</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick=showMenu()></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Money Minds Junior</h1>
+                <p>Are you ready to empower the next generation with the tools they need to become financially savvy?<br>Money Minds has your back!</p>
+                <a href="aboutus.html" class="hero-btn">Visit Us To Know More!</a>
+            </div>
+        </section>
+
+        <!-----course----->
+        <section class="course">
+            <h1 style="margin-top: 20px;">About Our Course</h1>
+            <p>Introducing Money Minds Junior - Where Smart Kids Learn about Money!</p>
+        
+            <div class="row">
+                <div class="course-col">
+                    <h3>What We Do</h3> 
+                    <p>Money Minds Junior is an educational web app designed to teach financial literacy to kids in a fun and engaging way while embarking on an exciting journey where they will gain essential financial knowledge.</p>
+                </div>
+    
+                <div class="course-col">
+                    <h3>Our Goal</h3>
+                    <p>With our unique comprehensive curriculum, we provide a general an overview of basic financial concepts for kids, including budgeting, saving, investing, and the importance of responsible spending.</p>
+                </div>
+        
+                <div class="course-col">
+                    <h3>Final Words</h3>
+                    <p>Join us now, in revolutionizing the future financial education for kids. Together, let's empower the next generation to become financially savvy individuals and contribute meaningfully to the economy.</p>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            var navLinks=document.getElementById("navLinks")
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head class="headerless">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Minds Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        .headerless {
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(backgorundless.jpeg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: #fff;
+        }
+
+        .left-nav {
+            width: 10%;
+            float: left;
+            background-color: #00739a;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .centered-content {
+            width: 70%;
+            float: left;
+            text-align: center;
+        }
+
+        .right-content {
+            width: 20%;
+            float: right;
+            text-align: center;
+        }
+
+        .thought-bubble1 {
+            background-color: transparent; /* Set background to transparent */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            margin: 0 auto;
+            border: 2px solid #ffffff; /* Add a border with the desired color */
+        }
+
+        .right-aligned {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .centered-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-bottom: 1px solid #fff;
+        }
+
+        .nav-link:last-child {
+            border: none;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        body {
+            background-color: #123456;
+        }
+
+        /* Minimized state for the left navigation bar */
+        .minimized {
+            width: 60px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .minimized .nav-link {
+            display: none;
+        }
+
+        .minimized #toggleNav {
+            display: block;
+        }
+
+        /* Add these styles to your existing styles */
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #fff; /* Add a border around the content */
+    margin: 20px; /* Add margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+    background: #00739a; /* Add a background color */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.centered-content {
+    width: 63%;
+    float: left;
+    text-align: center;
+    border: 2px solid #fff; /* Add a border around the centered content */
+    margin: 20px; /* Add margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+    background: #00739a; /* Add a background color */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.centered-content p {
+    text-align: left; /* Adjust the text alignment */
+}
+
+        @media(max-width: 700px){
+        .left-nav{
+        display: none;
+         }
+         .right-aligned{
+            display: none;
+         }
+         .centered-content{
+            float: center;
+            margin-left: 30px;
+         }
+}
+    </style>
+</head>
+
+<body>
+    <section class="headerless">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="lessons.html">LESSONS</a>
+                    </li>
+                    <li>
+                        <a href="certification.html">CERTIFICATION</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="left-nav">
+            <a href="page1.html" class="nav-link">Jenny The Wizard!</a>
+            <a href="page2.html" class="nav-link">Introduction to Money</a>
+            <a href="page3.html" class="nav-link">Earning Money</a>
+            <a href="page4.html" class="nav-link">Saving Money</a>
+            <a href="page5.html" class="nav-link">Needs vs. Wants</a>
+            <a href="page6.html" class="nav-link">Budgeting</a>
+            <a href="page7.html" class="nav-link">Financial Institutions</a>
+            <a href="page8.html" class="nav-link">Banking Terms</a>
+            <a href="page9.html" class="nav-link">Accessing Your Money</a>
+            <a href="page10.html" class="nav-link">Interest</a>
+            <a href="page11.html" class="nav-link">Investing</a>
+            <a href="page12.html" class="nav-link">Secret Tools</a>
+            <a href="page13.html" class="nav-link">Giving Back</a>
+            <a href="page14.html" class="nav-link">Congrats!</a>
+        </div>
+
+        <div class="centered-content">
+            <h1 >Investing</h1>
+            <p style="margin-top: 20px;">Imagine you have a special kind of plant. You put a seed in the ground and take care of it. As time goes by, that seed grows into a big, beautiful tree that gives you yummy fruits. Investing is a bit like that!</p>
+            <p style="margin-top: 20px;">When you invest, you put your money into something special, like buying a tiny piece of a company or giving money to help a project. Then, just like that seed, your money can grow over time. This happens because the thing you invested in might become more valuable, and you might get more money back than you put in.</p>
+
+            <div class="thought-bubble1" style="margin-top: 50px;">
+                <p>Remember: Just like you take care of your plant by giving it water and sunlight, you need to be patient and let your investments grow over time.</p>
+        </div>
+
+        <h1 style="margin-top: 50px;">Investing - Types</h1>
+            <p style="margin-top: 20px;">Stock: Owning a Piece of a Company</p>
+            <p style="margin-top: 20px;">Imagine your favorite toy store is a big company. If you really like that store and think it will do well, you can buy a tiny piece of it. When the store makes money, your tiny piece grows in value.</p>
+            <p style="margin-top: 20px;">High Yield Savings Account: Earning Extra Money</p>
+            <p style="margin-top: 20px;">A high yield savings account provides a slightly higher interest rate for letting the bank keep your money safe.</p>
+
+            <div class="thought-bubble1" style="margin-top: 50px;">
+                <p>Did you know: There are more than 60 stock exchanges in the world!</p>
+        </div>
+
+            <p style="margin-top: 50px;">Bond: Lending Your Money</p>
+            <p style="margin-top: 20px;">Bonds are issued by the government and companies. When you lend your money to the government, they promise to give it back with a little extra as a 'thank-you.'' It's like lending your toys and getting them back later with an extra toy or two!</p>
+            <p style="margin-top: 20px;">Fund: Investing in Groups</p>
+            <p style="margin-top: 20px;">Fund is where you can invest in groups of things with a group of people, like stocks and bonds. It's mostly operated by a portfolio manager.</p>
+
+            <div class="thought-bubble1" style="margin-top: 50px;">
+                <p>Did you know: While Bonds Are Generally Considered Safe Investments, they do have some risks!</p>
+        </div>
+            <h2 style="margin-top: 50px;">Investing - Benefits</h2>
+            <p style="margin-top: 20px;">Growing Money: Just like your plant grows into a big tree, your money can grow too. Over time, you might get back more money than you originally put in.</p>
+            <p style="margin-top: 20px;">More Fun: When your money grows, you can use the extra money to buy more things or save for big goals, like a special toy or a fun trip.</p>
+            <p style="margin-top: 20px;">Helping Companies: When you invest in a company, you're helping them do cool things, like making new inventions or providing helpful services. You become a part-owner of the company!</p>
+            <p style="margin-top: 20px;">Learning About Money: Investing teaches you about how money works and how to make smart choices with it.</p>
+        
+            <div class="centered-button">
+                <a href="page10.html" class="hero-btn">Back</a>
+                <a href="page12.html" class="hero-btn">Next</a>
+                
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="right-aligned">
+                <img style="margin-top: 50px;" src="Investing.png" alt="Image description" class="right-aligned">
+                <img style="margin-top: 100px;" src="Investing Types SLide1.png" alt="Image description" class="right-aligned">
+                <img style="margin-top: 100px;" src="Investing Types Slide2.png" alt="Image description" class="right-aligned">
+                <img style="margin-top: 100px;" src="Investing Benefits.png" alt="Image description" class="right-aligned">
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const toggleNavButton = document.getElementById('toggleNav');
+        const leftNav = document.querySelector('.left-nav');
+
+        toggleNavButton.addEventListener('click', function() {
+            leftNav.classList.toggle('minimized');
+        });
+    </script>
+</body>
+</html>

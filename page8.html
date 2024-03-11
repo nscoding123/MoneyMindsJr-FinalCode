@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="headerless">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Minds Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+         .headerless {
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(backgorundless.jpeg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: #fff;
+        }
+
+        .left-nav {
+            width: 10%;
+            float: left;
+            background-color: #00739a;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .centered-content {
+            width: 70%;
+            float: left;
+            text-align: center;
+        }
+
+        .right-content {
+            width: 20%;
+            float: right;
+            text-align: center;
+        }
+
+        .thought-bubble1 {
+            background-color: transparent; /* Set background to transparent */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            margin: 0 auto;
+            border: 2px solid #ffffff; /* Add a border with the desired color */
+        }
+
+        .right-aligned {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .centered-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-bottom: 1px solid #fff;
+        }
+
+        .nav-link:last-child {
+            border: none;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        body {
+            background-color: #123456;
+        }
+
+        /* Minimized state for the left navigation bar */
+        .minimized {
+            width: 60px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .minimized .nav-link {
+            display: none;
+        }
+
+        .minimized #toggleNav {
+            display: block;
+        }
+
+
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid #fff;
+            margin: 20px;
+            padding: 20px;
+            background: #00739a;
+            border-radius: 10px;
+        }
+
+        .centered-content {
+            width: 63%;
+            float: left;
+            text-align: center;
+            border: 2px solid #fff;
+            margin: 20px;
+            padding: 20px;
+            background: #00739a;
+            border-radius: 10px;
+        }
+
+        .centered-content p {
+            text-align: left;
+        }
+
+        .right-content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+
+        @media(max-width: 700px){
+        .left-nav{
+        display: none;
+         }
+         .right-aligned{
+            display: none;
+         }
+         .centered-content{
+            float: center;
+            margin-left: 30px;
+         }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="headerless">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="lessons.html">LESSONS</a>
+                    </li>
+                    <li>
+                        <a href="certification.html">CERTIFICATION</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="left-nav">
+            <a href="page1.html" class="nav-link">Jenny The Wizard!</a>
+            <a href="page2.html" class="nav-link">Introduction to Money</a>
+            <a href="page3.html" class="nav-link">Earning Money</a>
+            <a href="page4.html" class="nav-link">Saving Money</a>
+            <a href="page5.html" class="nav-link">Needs vs. Wants</a>
+            <a href="page6.html" class="nav-link">Budgeting</a>
+            <a href="page7.html" class="nav-link">Financial Institutions</a>
+            <a href="page8.html" class="nav-link">Banking Terms</a>
+            <a href="page9.html" class="nav-link">Accessing Your Money</a>
+            <a href="page10.html" class="nav-link">Interest</a>
+            <a href="page11.html" class="nav-link">Investing</a>
+            <a href="page12.html" class="nav-link">Secret Tools</a>
+            <a href="page13.html" class="nav-link">Giving Back</a>
+            <a href="page14.html" class="nav-link">Congrats!</a>
+        </div>
+
+        <div class="content-container">
+            <div class="centered-content">
+                <h1>Banking Terms</h1>
+                <h2>Now that you know about banks, let's learn about the basic banking terms.</h2>
+                <p style="margin-top: 20px;">Account: When you want to keep your money in a bank, you open an account with the bank. This way, the bank knows that the money belongs to you</p>
+                <p style="margin-top: 20px;">There are two main types of bank accounts: Savings and Checking.</p>
+    
+                <h1 style="margin-top: 50px;">Types of Accounts</h1>
+                <p>Saving & Checking Accounts </p>
+                <p style="margin-top: 20px;">Savings Account: A Savings Account is like having your piggy bank at the bank for money that you dont right away. When you put your money into this for future use, the bank keeps it really safe. They even add a little extra money over time, called 'interest,'' just to keep your money with them. It's like a bonus for being a great money-saver! </p>
+                <p style="margin-top: 20px;">Checking Account: A Checking Account is like having your purse at the bank for money that you need for day-to-day use. Most banks do not offer an interest on checking accounts</p>
+                <div class="thought-bubble1" style="margin-top: 50px;">
+                        <p>Remember: You don't actually keep your piggy bank or purse at the bank - you have them in Savings and Checking accounts at the bank in your name.</p>
+                </div>
+    
+                <h1 style="margin-top: 50px;">Withdrawals</h1>
+                <p style="margin-top: 20px;">When you want to buy something, like a yummy ice cream cone or a fun toy, you can take money out of your bank account. This is called making a "withdrawal." Since it is an expense for day-to-day use, you take this money from your "Checking account" </p>
+                <div class="thought-bubble1" style="margin-top: 50px;">
+                        <p>Remember: Withdrawals are when you take money out of your account to buy something you want</p>
+                </div>
+    
+                <h1 style="margin-top: 50px;">Loans</h1>
+                <p style="margin-top: 20px;">Imagine you really want a new toy, but you don't have enough money right now. You can ask someone you trust, like a parent or a grown-up, if you can borrow some money to buy the toy. When they agree and loan you the money, they're giving you a “Loan” / "Credit."</p>
+                <p style="margin-top: 20px;">So, a bank loan is when you borrow money from the bank for a little while, and you promise to give it back later, usually with a little extra called "Interest."</p>
+                <div class="thought-bubble1" style="margin-top: 50px;">
+                        <p>Remember: Credit/Loan is when you are borrowing money from the bank to use now and pay it back later, in intervals.</p>
+                </div>
+    
+                <h1 style="margin-top: 50px;">Deposits</h1>
+                <p style="margin-top: 20px;">Imagine you received 5 dollars from your dad when you helped with dishes. You can now put this money into your bank account so it stays safe. This is called making a "deposit".</p>
+                <div class="thought-bubble1" style="margin-top: 50px;">
+                        <p>Remember: Just like putting your new toy in your toy box, making a deposit is like putting your money where it belongs.</p>
+                </div>
+    
+                <h1 style="margin-top: 50px;">Balance Sheet</h1>
+                <p style="margin-top: 20px;">Think of a balance sheet like a magical list that helps you know how much money you have. On one side, you write down all the money you have and on the other side, you write down all the money you need to give back. The balance sheet helps you see if you HAVE more money or if you OWE more money. People use coins to buy smaller things like candy or stickers.</p>
+                <div class="thought-bubble1" style="margin-top: 50px;">
+                        <p>Remember: Even though your money is in the bank, you still need to keep track of it. Just like you count your toys, you need to know how much money you have in your account.</p>
+                </div>
+                <div class="centered-button">
+                    <a href="page7.html" class="hero-btn">Back</a>
+                    <a href="page9.html" class="hero-btn">Next</a>
+                </div>
+            </div>
+
+            <div class="right-content">
+                <div class="right-aligned">
+                    <img style="margin-top: 10px;" src="Savings Account.png" alt="Image description">
+                    <img style="margin-top: 200px;" src="Withdrawals.png" alt="Image description">
+                    <img style="margin-top: 5px;" src="Loans.png" alt="Image description">
+                    <img style="margin-top: 40px;"  src="Deposits.png" alt="Image description">
+                    <img style="margin-top: 40px;" src="Balance Sheet.png" alt="Image description">
+                </div>
+            </div>
+        </div>
+
+        <script>
+             const toggleNavButton = document.getElementById('toggleNav');
+        const leftNav = document.querySelector('.left-nav');
+
+        toggleNavButton.addEventListener('click', function() {
+            leftNav.classList.toggle('minimized');
+        });
+        </script>
+    </section>
+</body>
+
+</html>
